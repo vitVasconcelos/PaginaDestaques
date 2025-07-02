@@ -1,0 +1,120 @@
+:root{
+--Red1: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue1: hsl(212, 86%, 64%);
+--Grey500: hsl(234, 12%, 34%);
+--Grey400: hsl(212, 6%, 44%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Grey400);
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.container .titulo{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  padding: 20px;
+}
+.container h1{
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+.container h1 span{
+    font-weight: 600;
+    color: var(--Grey500);
+}
+.container .titulo p{
+    text-align: center;
+    font-size: 15px;
+}
+.cruz {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto auto auto;
+    column-gap: 10px;  
+    row-gap: 0px; 
+    margin-top: -20px;
+}
+
+.box {
+    display: flex;
+    font-weight: bold;
+  
+}
+.Team-builder { grid-area: 1 / 2; } /* topo */
+.supervisor { grid-area: 2 / 1; } /* esquerda */
+.calculator { grid-area: 2 / 3; } /* direita */
+.karma { grid-area: 3 / 2; } /* baixo */
+
+.box{
+    width: 320px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: var(--White);
+    border-radius: 5px;
+    box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.08), 
+    0 2px 6px rgba(0, 0, 0, 0.04);   
+}
+.box h2{
+    font-weight: 600;
+    color: var(--Grey500);
+    font-size: 20px;
+    text-align: left;
+} 
+.box p{
+    margin-top: 8px;
+    color: var(--Grey400);
+    font-weight: 300;
+    font-size: 15px;
+}
+.box img{
+    width: 50px;
+    height: auto;
+    align-self: flex-end;
+    margin-top: auto;   
+    margin-bottom: 15px;
+}
+.supervisor{
+    border-top: 4px solid var(--Cyan);
+    margin-right: 20px;
+}
+.Team-builder{
+    border-top: 4px solid var(--Red1);
+    position: relative;
+    top: 80px; 
+}
+.karma{
+    border-top: 4px solid var(--Orange);
+    position: relative;
+    top: -100px;
+    
+}
+.calculator{
+    border-top: 4px solid var(--Blue1);
+
+}
