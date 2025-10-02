@@ -1,6 +1,6 @@
 🧩 Four Card Feature Section
 
-Este projeto é uma seção de destaque com quatro cartões, responsiva e estilizada com CSS puro. Criado como parte de um desafio do Frontend Mentor
+Este projeto é uma seção de destaque com quatro cartões, responsiva e estilizada com CSS puro. Criado como parte de um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK
 
 📸 Prévia
 
