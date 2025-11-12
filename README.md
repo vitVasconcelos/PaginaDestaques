@@ -2,6 +2,8 @@
 
 Este projeto é uma seção de destaque com quatro cartões, responsiva e estilizada com CSS puro. Criado como parte de um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK
 
+Visite o site: https://vitvasconcelos.github.io/PaginaDestaques/
+
 📸 Prévia
 
 ![image](https://github.com/user-attachments/assets/245f23e2-3a75-471c-a5de-6f2961abaf3f)
